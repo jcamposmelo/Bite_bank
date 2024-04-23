@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat&display=swap');
+
+#favicon {
+    filter: (100%);
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	padding: 0.75rem;
+	/* overflow: hidden; */
+	background-color: #172627;
+	color: #696a67;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section#content {
+	width: 80rem;
+	height: auto;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	padding: 0.5rem;
+	text-align: center;
+	background-color: #c0e7be;
+}
+
+header.header {
+	display: flex;
+	align-items: left;
+	padding: 0.5rem;
+	height: auto;
+}
+.p-saldo{
+	margin: 0;
+}
+
+img#logo {
+	border-radius: 5rem;
+	width: 8.5rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #4b7940;
+	font-size: 2.5rem;
+	margin-top: -6rem;
+}
+
+h2 {
+	color: #769a69;
+	font-size: 1.5rem;
+}
+
+h2#disponivel {
+	font-size: 1.3rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+div.form {
+	margin: 1rem 1rem 0 1rem;
+	padding: 1rem 1rem 0.5rem 1rem;
+}
+
+input#caixa_texto {
+	margin: 1rem;
+	background-color: #f5ffe4;
+	border-radius: 0.2rem;
+	border: none;
+	height: 2.2rem;
+	width: 20rem;
+	font-size: 1rem;
+}
+
+div.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button.button {
+	border: none;
+	border-radius: 0.2rem;
+	margin: 0.3rem;
+	width: 15rem;
+	height: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #f5ffe4;
+	transition-duration: 0.3s;
+}
+
+button.button:hover {
+	cursor: pointer;
+	color: #777975;
+}
+
+button#sacar {
+	background-color: #769a69;
+	opacity: 80%;
+}
+
+button#sacar:hover {
+	background-color: #cbddbb;
+}
+
+button#limpar {
+	background-color: #949793;
+	opacity: 80%;
+}
+
+button#limpar:hover {
+	background-color: #bfc4bc;
+}
+
+button#return {
+	background-color: #949793;
+	opacity: 80%;
+	margin: 1rem auto;
+}
+
+button#return:hover {
+	background-color: #bfc4bc;
+}
+
+div#notas {
+	border-radius: 8px;
+	padding: 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+	width: 28rem;
+	position: relative;
+}
+
+img.nota {
+	width: 8rem;
+	height: 4rem;
+	padding: 0.2rem;
+	margin: 0.1rem;
+}
+
+p {
+	margin: 2.1rem auto;
+}
+
+ul#notas {
+	max-width: 36rem;
+	max-height: 12.1rem;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2rem auto;
+	padding: 0 1.5rem;
+}
+
+div#saldo {
+	margin: 2rem auto;
+}
+
+div#saldo-insuficiente {
+	display: flex;
+	color: #ffffff;
+	font-size: 2rem;
+	text-align: center;
+	margin: 10rem auto;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	background-color: #769a69;
+}
+input::placeholder, input{
+	text-align: right;
+	padding-right: 10px;
+}
+.saldo-em-tela{
+	display: inline-flex;
+    justify-content: center;
+	align-items: self-end;
+}
+.saldo-em-tela p{
+	user-select: none;
+	padding-right: 5px;
+}
+.saldo-em-tela #eye-icon{
+	background-color: transparent;
+    border: transparent;
+	border-radius: 50px;
+	padding: 0px;	
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+.saldo-em-tela #eye-icon:hover{
+	background-color: #6a6a6a;
+}
+.reset{
+	display: flex;
+    justify-content: end;	
+}
+.reset input{
+	text-align: center;
+	border: none;
+	border-radius: 0.2rem;
+	margin: 0.3rem;
+	width: 15rem;
+	height: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #f5ffe4;
+	transition-duration: 0.3s;
+	background-color: #769a69;
+	opacity: 80%;
+}
+.reset input:hover{
+	background-color: #cbddbb;
+	color: #696a67;
+}
