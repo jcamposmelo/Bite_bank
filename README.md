@@ -27,7 +27,7 @@ Essa é uma das partes que mais gosto, pois nela são informados, conforme dispo
                     <input type="submit" value="Reiniciar Sessão" />
                 </form>
 
-Aqui, meste bloco, foi desenvolvida a lógicia para criar o olhinho que esconde o saldo, tornando o processo seguro para quem está utilizando:
+Aqui, meste bloco, foi desenvolvida a lógica para criar o olhinho que esconde o saldo, tornando o processo seguro para quem está utilizando:
 
               function toggleVisibility() {
                   var saldoParagraph = document.getElementById('saldo-paragraph');
